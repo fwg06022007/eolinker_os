@@ -3,21 +3,8 @@ package com.eolinker;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-<<<<<<< HEAD
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-=======
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.Bean;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-
->>>>>>> 69026e8fcd3e531d8cf60e75f9c5884506362f53
 import com.eolinker.config.Config;
 /**
  * 启动类
@@ -44,13 +31,4 @@ import com.eolinker.config.Config;
 		SpringApplication.run(EolinkerOsApplication.class, args);
 	}
 	
-<<<<<<< HEAD
-=======
-//	@Override
-//	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-//		//设置启动类，用于独立tomcat运行入口
-//		return builder.sources(EolinkerOsApplication.class);
-//	}
-	
->>>>>>> 69026e8fcd3e531d8cf60e75f9c5884506362f53
 }

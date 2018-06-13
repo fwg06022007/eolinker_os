@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: eolinker_os
+Implementation-Version: 4.0
+Built-By: Administrator
+Implementation-Vendor-Id: com.eolinker
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/eolinker_os
+Created-By: Maven Integration for Eclipse
+
